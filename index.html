@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Educational website about William Shakespeare's The Merchant of Venice">
+    <title>The Merchant of Venice - William Shakespeare</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="loader" class="loader" aria-hidden="true">
+        <div class="loader-content">
+            <div class="loader-scroll"></div>
+            <p>Loading the world of Venice...</p>
+        </div>
+    </div>
+
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">The Merchant of Venice</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about-author" class="nav-link">Author</a></li>
+                <li><a href="#about-book" class="nav-link">The Play</a></li>
+                <li><a href="#characters" class="nav-link">Characters</a></li>
+                <li><a href="#timeline" class="nav-link">Timeline</a></li>
+                <li><a href="#video" class="nav-link">Video</a></li>
+                <li><a href="#fun-facts" class="nav-link">Fun Facts</a></li>
+                <li><a href="#game" class="nav-link nav-link-game">Play Game</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header id="hero" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <p class="hero-eyebrow">William Shakespeare</p>
+            <h1 class="hero-title">The Merchant of Venice</h1>
+            <p class="hero-subtitle">A famous play by William Shakespeare</p>
+            <a href="#about-author" class="btn btn-primary">Explore the Story</a>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll to discover</span>
+            <div class="scroll-arrow"></div>
+        </div>
+    </header>
+
+    <main>
+        <section id="about-author" class="section section-author">
+            <div class="container">
+                <h2 class="section-title">About the Author</h2>
+                <div class="section-divider"></div>
+                <div class="author-grid">
+                    <div class="author-image-wrapper fade-in">
+                        <img src="image/the-merchant-of-venice.jpg" alt="William Shakespeare">
+                    </div>
+                    <div class="author-content fade-in">
+                        <h3>William Shakespeare</h3>
+                        <p class="author-dates"><strong>Born:</strong> April 23, 1564 (Stratford-upon-Avon, England) &nbsp;|&nbsp; <strong>Died:</strong> April 23, 1616</p>
+                        <p>William Shakespeare is widely regarded as the greatest writer in the English language and the world's pre-eminent dramatist. Often called England's national poet and the "Bard of Avon," he wrote approximately 39 plays, 154 sonnets, and several long narrative poems.</p>
+                        <p>His works have been translated into every major living language and are performed more often than those of any other playwright. Shakespeare's mastery of language, character development, and universal themes continues to captivate audiences more than four centuries after his death.</p>
+                        <h4>Literary Importance</h4>
+                        <p>Shakespeare revolutionized English literature by expanding the vocabulary of the English language, creating unforgettable characters, and exploring the depths of human emotion. His influence on drama, poetry, and the English language itself is immeasurable.</p>
+                        <h4>Interesting Facts</h4>
+                        <ul class="fact-list">
+                            <li>Shakespeare invented over 1,700 words still used in English today.</li>
+                            <li>He acted in many of his own plays at the Globe Theatre.</li>
+                            <li>His exact birthday is unknown, but he was baptized on April 26, 1564.</li>
+                            <li>He wrote "The Merchant of Venice" around 1596–1598.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="about-book" class="section section-book">
+            <div class="container">
+                <h2 class="section-title">About the Play</h2>
+                <div class="section-divider"></div>
+                <div class="book-content fade-in">
+                    <div class="book-summary">
+                        <h3>Summary</h3>
+                        <p><em>The Merchant of Venice</em> is a comedy-drama set in 16th-century Venice and Belmont. The story follows Antonio, a merchant who borrows money from the Jewish moneylender Shylock to help his friend Bassanio court the wealthy heiress Portia. When Antonio's ships fail to return and he cannot repay the loan, Shylock demands a pound of Antonio's flesh as stipulated in their bond. The trial scene, where Portia disguises herself as a lawyer, becomes one of the most famous courtroom scenes in all of literature.</p>
+                    </div>
+                    <div class="themes-grid">
+                        <h3>Main Themes</h3>
+                        <div class="theme-cards">
+                            <article class="theme-card">
+                                <div class="theme-icon">🤝</div>
+                                <h4>Friendship</h4>
+                                <p>Antonio's selfless devotion to Bassanio drives the entire plot, showing the depth of male friendship in Elizabethan society.</p>
+                            </article>
+                            <article class="theme-card">
+                                <div class="theme-icon">⚖️</div>
+                                <h4>Justice</h4>
+                                <p>The play examines whether justice should be absolute or tempered by mercy, especially through Shylock's bond and the trial.</p>
+                            </article>
+                            <article class="theme-card">
+                                <div class="theme-icon">🕊️</div>
+                                <h4>Mercy</h4>
+                                <p>Portia's famous speech — "The quality of mercy is not strained" — argues that mercy elevates humanity above rigid law.</p>
+                            </article>
+                            <article class="theme-card">
+                                <div class="theme-icon">⚔️</div>
+                                <h4>Revenge</h4>
+                                <p>Shylock's pursuit of vengeance against Antonio reflects the pain of prejudice and the cycle of hatred.</p>
+                            </article>
+                            <article class="theme-card">
+                                <div class="theme-icon">💕</div>
+                                <h4>Love</h4>
+                                <p>Romantic love between Bassanio and Portia, and Jessica and Lorenzo, contrasts with the darker themes of the bond.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="characters" class="section section-characters">
+            <div class="container">
+                <h2 class="section-title">Main Characters</h2>
+                <div class="section-divider"></div>
+                <div class="characters-grid">
+
+                    <article class="character-card fade-in">
+                        <div class="character-image image-placeholder">
+                            <img src="image/antonio.png" alt="Antonio, the Merchant of Venice">
+                        </div>
+                        <div class="character-info">
+                            <h3>Antonio</h3>
+                            <p class="character-role">The Merchant of Venice</p>
+                            <p>A wealthy merchant whose deep friendship with Bassanio leads him to borrow money from Shylock. Melancholic and generous, Antonio risks his life to help his friend, becoming the central figure in the bond dispute.</p>
+                        </div>
+                    </article>
+
+                    <article class="character-card fade-in">
+                        <div class="character-image image-placeholder">
+                            <img src="image/shilock.png" alt="Shylock, the Jewish Moneylender">
+                        </div>
+                        <div class="character-info">
+                            <h3>Shylock</h3>
+                            <p class="character-role">The Jewish Moneylender</p>
+                            <p>A complex antagonist who lends Antonio money and demands a pound of flesh as bond. Wronged by Antonio and Venetian society, Shylock seeks revenge but becomes one of literature's most debated characters.</p>
+                        </div>
+                    </article>
+
+                    <article class="character-card fade-in">
+                        <div class="character-image image-placeholder">
+                            <img src="image/bassanio.png" alt="Bassanio, Antonio's Friend & Suitor">
+                        </div>
+                        <div class="character-info">
+                            <h3>Bassanio</h3>
+                            <p class="character-role">Antonio's Friend & Suitor</p>
+                            <p>A young nobleman who borrows money from Antonio to woo Portia. Charming but financially reckless, his courtship sets the romantic subplot in motion while his debt endangers Antonio's life.</p>
+                        </div>
+                    </article>
+
+                    <article class="character-card fade-in">
+                        <div class="character-image image-placeholder">
+                            <img src="image/portia.png" alt="Portia, the Heiress of Belmont">
+                        </div>
+                        <div class="character-info">
+                            <h3>Portia</h3>
+                            <p class="character-role">Heiress of Belmont</p>
+                            <p>Intelligent, witty, and beautiful, Portia is bound by her father's will to marry whoever chooses the correct casket. She later disguises herself as the lawyer Balthazar to save Antonio in court.</p>
+                        </div>
+                    </article>
+
+                    <article class="character-card fade-in">
+                        <div class="character-image image-placeholder">
+                            <img src="image/jessica.png" alt="Jessica, Shylock's Daughter">
+                        </div>
+                        <div class="character-info">
+                            <h3>Jessica</h3>
+                            <p class="character-role">Shylock's Daughter</p>
+                            <p>Shylock's daughter who elopes with Lorenzo, a Christian, taking her father's ducats and a treasured ring. Her departure deeply wounds Shylock and adds to the play's themes of love and betrayal.</p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+        <section id="timeline" class="section section-timeline">
+            <div class="container">
+                <h2 class="section-title">Story Timeline</h2>
+                <div class="section-divider"></div>
+                <div class="timeline">
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-marker">1</div>
+                        <div class="timeline-content">
+                            <h3>Antonio Borrows Money</h3>
+                            <p>Bassanio asks Antonio for money to court Portia. Antonio, whose ships are at sea, borrows 3,000 ducats from Shylock on his friend's behalf.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-marker">2</div>
+                        <div class="timeline-content">
+                            <h3>The Bond Agreement</h3>
+                            <p>Shylock agrees to lend the money interest-free but demands a pound of Antonio's flesh if the loan is not repaid by the deadline — a bond born of hatred and revenge.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-marker">3</div>
+                        <div class="timeline-content">
+                            <h3>Bassanio Courts Portia</h3>
+                            <p>At Belmont, Bassanio chooses the lead casket and wins Portia's hand. Meanwhile, Jessica elopes with Lorenzo, stealing from Shylock.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-marker">4</div>
+                        <div class="timeline-content">
+                            <h3>The Trial Scene</h3>
+                            <p>Antonio's ships are lost. Shylock demands his pound of flesh. Portia, disguised as a lawyer, delivers her speech on mercy and outwits Shylock in court.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item fade-in">
+                        <div class="timeline-marker">5</div>
+                        <div class="timeline-content">
+                            <h3>Resolution of the Conflict</h3>
+                            <p>Shylock is forced to convert to Christianity and forfeit his wealth. Antonio is saved, the couples are united, and harmony is restored — though questions of justice linger.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="video" class="section section-video">
+            <div class="container">
+                <h2 class="section-title">Video Presentation</h2>
+                <div class="section-divider"></div>
+                <p class="video-description fade-in">Watch our presentation about The Merchant of Venice</p>
+                <div class="video-wrapper fade-in">
+                    <iframe id="videoFrame" src="../The merchant of Venice/image/video/the-merchant-of-venice.mp4" title="The Merchant of Venice Presentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </section>
+        <section id="fun-facts" class="section section-fun-facts">
+            <div class="container">
+                <h2 class="section-title">Fun Facts</h2>
+                <div class="section-divider"></div>
+                <div class="facts-grid">
+                    <article class="fact-card fade-in">
+                        <h3>About Shakespeare</h3>
+                        <ul>
+                            <li>Shakespeare never published any of his plays himself — they were collected after his death.</li>
+                            <li>He left his wife Anne his "second-best bed" in his will, which scholars still debate.</li>
+                            <li>The word "assassination" was first used in Shakespeare's <em>Macbeth</em>.</li>
+                        </ul>
+                    </article>
+                    <article class="fact-card fade-in">
+                        <h3>About Renaissance Venice</h3>
+                        <ul>
+                            <li>Venice was one of Europe's wealthiest cities, built on trade with the East.</li>
+                            <li>The Jewish Ghetto of Venice, established in 1516, was the world's first ghetto.</li>
+                            <li>Venetian merchants controlled much of the Mediterranean spice trade.</li>
+                        </ul>
+                    </article>
+                    <article class="fact-card fade-in">
+                        <h3>About The Merchant of Venice</h3>
+                        <ul>
+                            <li>The play was originally classified as a comedy, though modern audiences often find it darker.</li>
+                            <li>Shylock's "Hath not a Jew eyes?" speech humanizes him in a way rare for its time.</li>
+                            <li>Portia's mercy speech is among the most quoted passages in all of Shakespeare.</li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <section id="game" class="section section-game">
+            <div class="container">
+                <h2 class="section-title">Educational Game</h2>
+                <div class="section-divider"></div>
+                <div class="game-intro fade-in">
+                    <p>Test your knowledge of Shakespeare and <em>The Merchant of Venice</em> with our interactive Snakes and Ladders game! Answer questions correctly to stay on track, but beware — wrong answers will send you backward!</p>
+                    <button id="openGameBtn" class="btn btn-game">
+                        <span class="btn-game-icon">🎲</span>
+                        Play the Educational Game
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>The Merchant of Venice</h3>
+                    <p>An educational project exploring William Shakespeare's timeless play. Designed for students, teachers, and literature enthusiasts.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about-author">About the Author</a></li>
+                        <li><a href="#about-book">About the Play</a></li>
+                        <li><a href="#characters">Characters</a></li>
+                        <li><a href="#game">Educational Game</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Follow Us</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                        <a href="#" class="social-icon" aria-label="Twitter">𝕏</a>
+                        <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                        <a href="#" class="social-icon" aria-label="YouTube">▶</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 The Merchant of Venice Educational Project. All rights reserved.</p>
+                <p class="footer-credit">William Shakespeare (1564–1616) — Bard of Avon</p>
+            </div>
+        </div>
+    </footer>
+    <div id="gameModal" class="game-modal" role="dialog" aria-labelledby="gameModalTitle" aria-hidden="true">
+        <div class="game-modal-backdrop"></div>
+        <div class="game-modal-container">
+            <header class="game-modal-header">
+                <h2 id="gameModalTitle">Snakes &amp; Ladders — Shakespeare Edition</h2>
+                <button id="closeGameBtn" class="game-modal-close" aria-label="Close game">&times;</button>
+            </header>
+            <div class="game-modal-body">
+                <div class="game-hud">
+                    <div class="hud-item">
+                        <span class="hud-label">Position</span>
+                        <span id="playerPosition" class="hud-value">1</span>
+                    </div>
+                    <div class="hud-item">
+                        <span class="hud-label">Score</span>
+                        <span id="playerScore" class="hud-value">0</span>
+                    </div>
+                    <div class="hud-item">
+                        <span class="hud-label">Correct</span>
+                        <span id="correctCount" class="hud-value">0</span>
+                    </div>
+                </div>
+                <div class="game-board-wrapper">
+                    <div id="gameBoard" class="game-board" aria-label="Snakes and Ladders game board"></div>
+                </div>
+                <div class="game-controls">
+                    <div class="dice-area">
+                        <div id="dice" class="dice" aria-label="Dice showing 1">
+                            <div class="dice-face">⚀</div>
+                        </div>
+                        <button id="rollDiceBtn" class="btn btn-dice">Roll Dice</button>
+                    </div>
+                    <div id="gameMessage" class="game-message" role="status">Roll the dice to begin your journey through Venice!</div>
+                </div>
+                <div id="questionPanel" class="question-panel hidden">
+                    <h3 id="questionText">Question goes here?</h3>
+                    <div id="questionOptions" class="question-options"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <audio id="soundDice" preload="none"><source src="" type="audio/mpeg"></audio>
+    <audio id="soundCorrect" preload="none"><source src="" type="audio/mpeg"></audio>
+    <audio id="soundWrong" preload="none"><source src="" type="audio/mpeg"></audio>
+    <audio id="soundWin" preload="none"><source src="" type="audio/mpeg"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
